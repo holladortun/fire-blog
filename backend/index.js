@@ -46,7 +46,7 @@ app.use(
 app.use(cors())
 app.use(helmet());
 
-app.use(morgan('devs'))
+app.use(morgan('dev'))
 
 // handles cors 
 
